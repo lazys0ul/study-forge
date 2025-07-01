@@ -1,41 +1,20 @@
-!Build/
-.last_cover_stats
-/META.yml
-/META.json
-/MYMETA.*
-*.o
-*.pm.tdy
-*.bs
-
-# Devel::Cover
-cover_db/
-
-# Devel::NYTProf
-nytprof.out
-
-# Dist::Zilla
-/.build/
-
-# Module::Build
-_build/
-Build
-Build.bat
-
-# Module::Install
-inc/
-
-# ExtUtils::MakeMaker
-/blib/
-/_eumm/
-/*.gz
-/Makefile
-/Makefile.old
-/MANIFEST.bak
-/pm_to_blib
-/*.zip
-
-# Carton/Carmel
-/local/
-/.carmel/
-# cpanfile.snapshot should generally be ignored for library code, otherwise included
-# cpanfile.snapshot 
+study-forge/
+│
+├── README.md               # Project overview + usage guide
+├── .gitignore              # Ignore build artifacts, env files
+│
+├── path_a_static_cms/      # MkDocs + Decap CMS setup
+│   ├── mkdocs.yml
+│   ├── docs/
+│   │   └── index.md
+│   └── admin/
+│       └── config.yml
+│
+├── path_b_dynamic_app/     # Full-stack (React + Supabase)
+│   ├── frontend/           # Next.js or Vite + React app
+│   └── backend/            # Supabase schema, scripts or Flask API
+│
+└── path_c_forms_sync/      # Google Forms + Apps Script auto-export
+    ├── form_template/
+    └── scripts/
+        └── export_to_md.gs
