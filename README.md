@@ -37,7 +37,7 @@ Study Forge is your personal academic OS — a centralized platform to manage no
 
 ## 🧭 Roadmap
 
-See `PROJECT_ROADMAP.md` (optional).
+See `plan.md` (optional).
 
 ## 🤝 Contributing
 
